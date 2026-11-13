@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="TugasAndo"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TugasAndo"
+        android:usesCleartextTraffic="true">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".BerandaSActivity" android:exported="false" />
+        <activity android:name=".BerandaMActivity" android:exported="false" />
+        <activity android:name=".DataMobilActivity" android:exported="false" />
+        <activity android:name=".TambahMobilActivity" android:exported="false" />
+        <activity android:name=".EditMobilActivity" android:exported="false" />
+        <activity android:name=".DataPembeliActivity" android:exported="false" />
+        <activity android:name=".TambahPembeliActivity" android:exported="false" />
+        <activity android:name=".DataPaketActivity" android:exported="false" />
+        <activity android:name=".TambahPaketActivity" android:exported="false" />
+        <activity android:name=".DataCashActivity" android:exported="false" />
+        <activity android:name=".TambahCashActivity" android:exported="false" />
+        <activity android:name=".DataKreditActivity" android:exported="false" />
+        <activity android:name=".TambahKreditActivity" android:exported="false" />
+        <activity android:name=".DataCicilActivity" android:exported="false" />
+        <activity android:name=".TambahCicilanActivity" android:exported="false" />
+
+        <activity android:name=".LaporanCashActivity" android:exported="false" />
+        <activity android:name=".LaporanKreditActivity" android:exported="false" />
+        <activity android:name=".LaporanBayarActivity" android:exported="false" />
+    </application>
+
+</manifest>
